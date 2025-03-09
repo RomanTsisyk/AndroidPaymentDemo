@@ -29,7 +29,7 @@ fun AppNavigation(navController: NavHostController) {
         ) {
             ProductDetailScreen(
                 navController = navController,
-                productId = it.arguments?.getString("productId") ?: ""
+                productId = it.arguments?.getString("productId").orEmpty()
             )
         }
     }
