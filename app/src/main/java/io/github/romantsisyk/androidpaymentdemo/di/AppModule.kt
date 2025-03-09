@@ -4,7 +4,9 @@ import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import io.github.romantsisyk.androidpaymentdemo.data.repository.CartRepositoryImpl
 import io.github.romantsisyk.androidpaymentdemo.data.repository.ProductRepositoryImpl
+import io.github.romantsisyk.androidpaymentdemo.domain.repository.CartRepository
 import io.github.romantsisyk.androidpaymentdemo.domain.repository.ProductRepository
 import javax.inject.Singleton
 
@@ -17,4 +19,10 @@ abstract class AppModule {
     abstract fun bindProductRepository(
         productRepositoryImpl: ProductRepositoryImpl
     ): ProductRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindCartRepository(
+        cartRepositoryImpl: CartRepositoryImpl
+    ): CartRepository
 }
