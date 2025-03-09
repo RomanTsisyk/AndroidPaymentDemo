@@ -1,4 +1,4 @@
-package io.github.romantsisyk.androidpaymentdemo.ui.theme
+package io.github.romantsisyk.androidpaymentdemo.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

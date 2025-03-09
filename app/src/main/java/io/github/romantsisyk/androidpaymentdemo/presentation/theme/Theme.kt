@@ -1,6 +1,5 @@
-package io.github.romantsisyk.androidpaymentdemo.ui.theme
+package io.github.romantsisyk.androidpaymentdemo.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
