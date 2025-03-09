@@ -8,6 +8,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import io.github.romantsisyk.androidpaymentdemo.presentation.screens.ProductDetailScreen
 import io.github.romantsisyk.androidpaymentdemo.presentation.screens.ProductListScreen
+import io.github.romantsisyk.androidpaymentdemo.presentation.screens.CartScreen
+import io.github.romantsisyk.androidpaymentdemo.presentation.screens.CheckoutScreen
 
 @Composable
 fun AppNavigation(navController: NavHostController) {
@@ -31,6 +33,14 @@ fun AppNavigation(navController: NavHostController) {
                 navController = navController,
                 productId = it.arguments?.getString("productId").orEmpty()
             )
+        }
+
+        composable(route = Screen.Cart.route) {
+            CartScreen(navController)
+        }
+
+        composable(route = Screen.Checkout.route) {
+            CheckoutScreen(navController)
         }
     }
 }
