@@ -44,8 +44,15 @@ android {
 
 dependencies {
 
+    // Navigation component
+    implementation (libs.androidx.navigation.runtime.ktx)
+    implementation (libs.androidx.navigation.compose)
+
+    implementation (libs.stripe.android)
+
     // Hilt
     implementation (libs.hilt.android)
+    implementation(libs.androidx.navigation.runtime)
     kapt (libs.hilt.compiler)
     implementation (libs.androidx.hilt.navigation.compose)
 
