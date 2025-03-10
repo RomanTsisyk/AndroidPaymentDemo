@@ -10,6 +10,7 @@ import io.github.romantsisyk.androidpaymentdemo.presentation.screens.ProductDeta
 import io.github.romantsisyk.androidpaymentdemo.presentation.screens.ProductListScreen
 import io.github.romantsisyk.androidpaymentdemo.presentation.screens.CartScreen
 import io.github.romantsisyk.androidpaymentdemo.presentation.screens.CheckoutScreen
+import io.github.romantsisyk.androidpaymentdemo.presentation.screens.PaymentSuccessScreen
 
 @Composable
 fun AppNavigation(navController: NavHostController) {
@@ -41,6 +42,10 @@ fun AppNavigation(navController: NavHostController) {
 
         composable(route = Screen.Checkout.route) {
             CheckoutScreen(navController)
+        }
+
+        composable(route = Screen.PaymentSuccess.route) {
+            PaymentSuccessScreen(navController)
         }
     }
 }
