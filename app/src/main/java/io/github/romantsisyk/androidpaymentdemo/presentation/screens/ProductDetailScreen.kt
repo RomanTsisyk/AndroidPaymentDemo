@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
@@ -42,7 +41,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import io.github.romantsisyk.androidpaymentdemo.domain.model.Product
-import io.github.romantsisyk.androidpaymentdemo.presentation.navigation.Screen.*
+import io.github.romantsisyk.androidpaymentdemo.presentation.navigation.Screen.Cart
 import io.github.romantsisyk.androidpaymentdemo.presentation.viewmodel.CartViewModel
 import io.github.romantsisyk.androidpaymentdemo.presentation.viewmodel.ProductDetailViewModel
 import java.text.NumberFormat
@@ -67,7 +66,7 @@ fun ProductDetailScreen(
                 title = { Text("Product Details") },
                 navigationIcon = {
                     IconButton(onClick = { navController.navigateUp() }) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
                     }
                 },
                 actions = {
@@ -97,6 +96,7 @@ fun ProductDetailScreen(
                 state.isLoading -> {
                     CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
                 }
+
                 state.error.isNotBlank() -> {
                     Column(
                         modifier = Modifier
@@ -110,6 +110,7 @@ fun ProductDetailScreen(
                         )
                     }
                 }
+
                 state.product != null -> {
                     ProductDetailContent(
                         product = state.product!!,

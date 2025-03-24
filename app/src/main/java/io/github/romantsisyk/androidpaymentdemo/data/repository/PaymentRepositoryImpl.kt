@@ -10,7 +10,10 @@ import javax.inject.Singleton
 @Singleton
 class PaymentRepositoryImpl @Inject constructor() : PaymentRepository {
 
-    override suspend fun createPaymentIntent(amount: Long, currency: String): Resource<PaymentIntent> {
+    override suspend fun createPaymentIntent(
+        amount: Long,
+        currency: String
+    ): Resource<PaymentIntent> {
         return try {
             val mockId = "pi_${System.currentTimeMillis()}"
             val mockClientSecret = "${mockId}_secret_${System.currentTimeMillis()}"

@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Основна тема додатку -->
+    <style name="Theme.LuxuryApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Основні кольори -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_variant</item>
+        <item name="colorOnSecondary">@color/text_on_accent</item>
+        
+        <!-- Статусбар і навігація -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <!-- Прозорість системних панелей -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        
+        <!-- Фон -->
+        <item name="android:windowBackground">@color/background</item>
+        
+        <!-- Компоненти -->
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigation</item>
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+    </style>
+    
+    <!-- Стиль для тексту -->
 
-    <style name="Theme.AndroidPaymentDemo" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Стиль для карточок -->
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">6dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="rippleColor">@color/ripple_light</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+    
+    <!-- Стиль для нижньої навігації -->
+    <style name="Widget.App.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">@color/surface</item>
+        <item name="itemIconTint">@color/bottom_nav_colors</item>
+        <item name="itemTextColor">@color/bottom_nav_colors</item>
+        <item name="elevation">16dp</item>
+    </style>
+    
+    <!-- Стиль для верхнього тулбара -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/text_on_primary</item>
+        <item name="subtitleTextColor">@color/text_on_primary</item>
+        <item name="android:background">@drawable/gradient_toolbar_bg</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    
+    <!-- Стиль для плаваючої кнопки -->
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="tint">@color/text_on_accent</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">8dp</item>
+        <item name="rippleColor">@color/ripple_light</item>
+    </style>
+    
+    <!-- Стиль для кнопок -->
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:stateListAnimator">@animator/button_state_animator</item>
+    </style>
+    
+    <!-- Стиль для текстових полів -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxBackgroundColor">@color/surface</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    
+    <!-- Стиль для прогрес-індикатора -->
+
+    <!-- Стилі для текстів -->
+
 </resources>

@@ -47,6 +47,7 @@ class PaymentViewModel @Inject constructor(
                         Timber.e("Payment intent is null")
                     }
                 }
+
                 is Resource.Error -> {
                     _paymentState.value = PaymentState.Error(result.message ?: "Unknown error")
                     Timber.e("Error creating payment intent: ${result.message}")
@@ -83,10 +84,12 @@ class PaymentViewModel @Inject constructor(
                     Timber.d("Payment completed successfully but no payment intent ID to confirm")
                 }
             }
+
             is com.stripe.android.paymentsheet.PaymentSheetResult.Canceled -> {
                 _paymentState.value = PaymentState.Initial
                 Timber.d("Payment canceled by user")
             }
+
             is com.stripe.android.paymentsheet.PaymentSheetResult.Failed -> {
                 _paymentState.value = PaymentState.Error(
                     paymentResult.error.localizedMessage ?: "Payment failed"
@@ -108,6 +111,7 @@ class PaymentViewModel @Inject constructor(
                         Timber.e("Payment confirmation failed")
                     }
                 }
+
                 is Resource.Error -> {
                     _paymentState.value = PaymentState.Error(result.message ?: "Unknown error")
                     Timber.e("Error confirming payment: ${result.message}")

@@ -2,10 +2,10 @@ package io.github.romantsisyk.androidpaymentdemo.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import io.github.romantsisyk.androidpaymentdemo.domain.usecase.GetProductsUseCase
 import io.github.romantsisyk.androidpaymentdemo.domain.util.Resource
 import io.github.romantsisyk.androidpaymentdemo.presentation.state.ProductListState
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.launchIn
@@ -32,11 +32,13 @@ class ProductViewModel @Inject constructor(
                     is Resource.Success -> {
                         _state.value = ProductListState(products = result.data ?: emptyList())
                     }
+
                     is Resource.Error -> {
                         _state.value = ProductListState(
                             error = result.message ?: "An unexpected error occurred"
                         )
                     }
+
                     is Resource.Loading -> {
                         _state.value = ProductListState(isLoading = true)
                     }

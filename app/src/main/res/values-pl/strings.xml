@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Luxury App</string>
+    
+    <!-- Ciągi nawigacyjne -->
+    <string name="nav_home">Strona główna</string>
+    <string name="nav_explore">Przeglądaj</string>
+    <string name="nav_favorites">Ulubione</string>
+    <string name="nav_profile">Profil</string>
+    
+    <!-- Nagłówki ekranów -->
+    <string name="header_popular">Popularne teraz</string>
+    <string name="header_recommended">Polecane dla Ciebie</string>
+    <string name="header_new">Nowości</string>
+    <string name="header_featured">Wyróżnione oferty</string>
+    
+    <!-- Wyszukiwanie -->
+    <string name="search_hint">Szukaj…</string>
+    <string name="search_empty">Brak wyników</string>
+    
+    <!-- Akcje -->
+    <string name="action_add">Dodaj</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_share">Udostępnij</string>
+    <string name="action_save">Zapisz</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_see_all">Zobacz wszystkie</string>
+    <string name="action_favorite">Dodaj do ulubionych</string>
+    <string name="action_unfavorite">Usuń z ulubionych</string>
+    <string name="action_reset_language">Przywróć angielski</string>
+    <string name="action_language_settings">Ustawienia języka</string>
+    
+    <!-- Wiadomości -->
+    <string name="msg_welcome">Witamy!</string>
+    <string name="msg_success">Pomyślnie zakończono</string>
+    <string name="msg_error">Wystąpił błąd</string>
+    <string name="msg_empty_state">Brak danych</string>
+    <string name="msg_coming_soon">Wkrótce</string>
+    
+    <!-- Etykiety cenowe -->
+    <string name="price_free">Bezpłatnie</string>
+    <string name="price_sale">Wyprzedaż</string>
+    <string name="price_premium">Premium</string>
+    
+    <!-- Tagi -->
+    <string name="tag_trending">Trending</string>
+    <string name="tag_new">Nowość</string>
+    <string name="tag_sale">Promocja</string>
+    <string name="tag_limited">Limitowana oferta</string>
+    
+    <!-- Inne -->
+    <string name="loading">Ładowanie…</string>
+    <string name="retry">Spróbuj ponownie</string>
+    <string name="continue_text">Kontynuuj</string>
+    <string name="powered_by">Opracowano z ❤️</string>
+    
+    <!-- Featured Items -->
+    <string name="featured_premium_card_title">Karta Premium</string>
+    <string name="featured_premium_card_desc">Uzyskaj kartę premium z 5% zwrotu gotówki za wszystkie zakupy</string>
+    <string name="featured_fast_transfers_title">Szybkie Przelewy</string>
+    <string name="featured_fast_transfers_desc">Natychmiastowe przelewy na całym świecie bez prowizji</string>
+    <string name="featured_investments_title">Inwestycje</string>
+    <string name="featured_investments_desc">Inwestuj z minimalnym ryzykiem i uzyskuj dochód</string>
+    <string name="featured_credit_line_title">Linia Kredytowa</string>
+    <string name="featured_credit_line_desc">Korzystne warunki kredytowania dla Twoich potrzeb</string>
+    
+    <!-- Popular Payment Items -->
+    <string name="popular_utilities_title">Płatności za Media</string>
+    <string name="popular_utilities_desc">Zapłać za wszystkie usługi komunalne w jednym miejscu</string>
+    <string name="popular_mobile_title">Usługi Mobilne</string>
+    <string name="popular_mobile_desc">Doładuj konto mobilne ze zniżką</string>
+    <string name="popular_internet_title">Internet</string>
+    <string name="popular_internet_desc">Płatność za usługi dostawcy internetu</string>
+    <string name="popular_insurance_title">Ubezpieczenie</string>
+    <string name="popular_insurance_desc">Szybka rejestracja polisy ubezpieczeniowej</string>
+    
+    <!-- Recommended Items -->
+    <string name="recommended_charity_title">Darowizny</string>
+    <string name="recommended_charity_desc">Pomagaj tym, którzy tego potrzebują</string>
+    <string name="recommended_entertainment_title">Rozrywka</string>
+    <string name="recommended_entertainment_desc">Bilety do kina, teatru i na koncerty</string>
+    <string name="recommended_taxi_title">Taxi</string>
+    <string name="recommended_taxi_desc">Zamawiaj taksówki z rabatami do 20%</string>
+    <string name="recommended_restaurants_title">Restauracje</string>
+    <string name="recommended_restaurants_desc">Rezerwuj stoliki i płać rachunki</string>
+</resources>

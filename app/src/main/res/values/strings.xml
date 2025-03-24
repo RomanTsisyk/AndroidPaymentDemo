@@ -1,3 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidPaymentDemo</string>
+    <string name="app_name">Luxury App</string>
+    
+    <!-- Navigation strings -->
+    <string name="nav_home">Home</string>
+    <string name="nav_explore">Explore</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Screen headers -->
+    <string name="header_popular">Popular Now</string>
+    <string name="header_recommended">Recommended for You</string>
+    <string name="header_featured">Featured Offers</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search…</string>
+
+    <!-- Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_see_all">See All</string>
+    <string name="action_reset_language">Reset to English</string>
+    <string name="action_language_settings">Language Settings</string>
+    
+    <!-- Messages -->
+
+    <!-- Price labels -->
+
+    <!-- Tags -->
+
+    <!-- Other -->
+
+    <!-- Featured Items -->
+    <string name="featured_premium_card_title">Premium Card</string>
+    <string name="featured_premium_card_desc">Get a premium card with 5% cashback on all purchases</string>
+    <string name="featured_fast_transfers_title">Fast Transfers</string>
+    <string name="featured_fast_transfers_desc">Instant transfers worldwide with no commission</string>
+    <string name="featured_investments_title">Investments</string>
+    <string name="featured_investments_desc">Invest with minimal risk and earn income</string>
+    <string name="featured_credit_line_title">Credit Line</string>
+    <string name="featured_credit_line_desc">Favorable credit terms for your needs</string>
+    
+    <!-- Popular Payment Items -->
+    <string name="popular_utilities_title">Utility Payments</string>
+    <string name="popular_utilities_desc">Pay all utility services in one place</string>
+    <string name="popular_mobile_title">Mobile Services</string>
+    <string name="popular_mobile_desc">Top up your mobile account with a discount</string>
+    <string name="popular_internet_title">Internet</string>
+    <string name="popular_internet_desc">Payment for internet provider services</string>
+    <string name="popular_insurance_title">Insurance</string>
+    <string name="popular_insurance_desc">Quick insurance policy registration</string>
+    
+    <!-- Recommended Items -->
+    <string name="recommended_charity_title">Charity</string>
+    <string name="recommended_charity_desc">Help those who need it</string>
+    <string name="recommended_entertainment_title">Entertainment</string>
+    <string name="recommended_entertainment_desc">Tickets for cinema, theaters and concerts</string>
+    <string name="recommended_taxi_title">Taxi</string>
+    <string name="recommended_taxi_desc">Order a taxi with up to 20% discount</string>
+    <string name="recommended_restaurants_title">Restaurants</string>
+    <string name="recommended_restaurants_desc">Book tables and pay bills</string>
 </resources>
