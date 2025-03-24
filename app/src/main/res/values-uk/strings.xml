@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Luxury App</string>
+    
+    <!-- Навігаційні рядки -->
+    <string name="nav_home">Головна</string>
+    <string name="nav_explore">Огляд</string>
+    <string name="nav_favorites">Улюблене</string>
+    <string name="nav_profile">Профіль</string>
+    
+    <!-- Заголовки екранів -->
+    <string name="header_popular">Популярне зараз</string>
+    <string name="header_recommended">Рекомендовано для вас</string>
+    <string name="header_new">Нові надходження</string>
+    <string name="header_featured">Особливі пропозиції</string>
+    
+    <!-- Пошук -->
+    <string name="search_hint">Шукати…</string>
+    <string name="search_empty">Немає результатів</string>
+    
+    <!-- Дії -->
+    <string name="action_add">Додати</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_share">Поділитися</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="action_see_all">Переглянути все</string>
+    <string name="action_favorite">У вибране</string>
+    <string name="action_unfavorite">Прибрати з вибраного</string>
+    <string name="action_reset_language">Повернути англійську</string>
+    <string name="action_language_settings">Налаштування мови</string>
+    
+    <!-- Повідомлення -->
+    <string name="msg_welcome">Вітаємо!</string>
+    <string name="msg_success">Успішно виконано</string>
+    <string name="msg_error">Сталася помилка</string>
+    <string name="msg_empty_state">Поки немає даних</string>
+    <string name="msg_coming_soon">Скоро з\'явиться</string>
+    
+    <!-- Цінові мітки -->
+    <string name="price_free">Безкоштовно</string>
+    <string name="price_sale">Розпродаж</string>
+    <string name="price_premium">Преміум</string>
+    
+    <!-- Теги -->
+    <string name="tag_trending">Популярне</string>
+    <string name="tag_new">Новинка</string>
+    <string name="tag_sale">Знижка</string>
+    <string name="tag_limited">Обмежена пропозиція</string>
+    
+    <!-- Інше -->
+    <string name="loading">Завантаження…</string>
+    <string name="retry">Спробувати знову</string>
+    <string name="continue_text">Продовжити</string>
+    <string name="powered_by">Розроблено з ❤️</string>
+    
+    <!-- Featured Items -->
+    <string name="featured_premium_card_title">Преміум карта</string>
+    <string name="featured_premium_card_desc">Отримайте преміум карту з кешбеком 5% на всі покупки</string>
+    <string name="featured_fast_transfers_title">Швидкі перекази</string>
+    <string name="featured_fast_transfers_desc">Миттєві перекази без комісії по всьому світу</string>
+    <string name="featured_investments_title">Інвестиції</string>
+    <string name="featured_investments_desc">Інвестуйте з мінімальним ризиком та отримуйте дохід</string>
+    <string name="featured_credit_line_title">Кредитна лінія</string>
+    <string name="featured_credit_line_desc">Вигідні умови кредитування для ваших потреб</string>
+    
+    <!-- Popular Payment Items -->
+    <string name="popular_utilities_title">Комунальні платежі</string>
+    <string name="popular_utilities_desc">Оплатіть всі комунальні послуги в одному місці</string>
+    <string name="popular_mobile_title">Мобільний зв\'язок</string>
+    <string name="popular_mobile_desc">Поповнення мобільного рахунку зі знижкою</string>
+    <string name="popular_internet_title">Інтернет</string>
+    <string name="popular_internet_desc">Оплата послуг інтернет-провайдерів</string>
+    <string name="popular_insurance_title">Страхування</string>
+    <string name="popular_insurance_desc">Швидке оформлення страхових полісів</string>
+    
+    <!-- Recommended Items -->
+    <string name="recommended_charity_title">Благодійність</string>
+    <string name="recommended_charity_desc">Допоможіть тим, хто цього потребує</string>
+    <string name="recommended_entertainment_title">Розваги</string>
+    <string name="recommended_entertainment_desc">Квитки в кіно, театри та концерти</string>
+    <string name="recommended_taxi_title">Таксі</string>
+    <string name="recommended_taxi_desc">Замовлення таксі зі знижкою до 20%</string>
+    <string name="recommended_restaurants_title">Ресторани</string>
+    <string name="recommended_restaurants_desc">Бронювання столиків та оплата рахунків</string>
+</resources>
